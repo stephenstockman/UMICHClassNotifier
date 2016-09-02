@@ -1,5 +1,5 @@
 # UMICHClassNotifier
-Simple NodeJS program that takes advantage of UMICH's UMScheduleOfClasses API to notify students when a desired course is available. Checks are done every 2 minutes and code can be edited to change the frequency of checking along with the courses checked.
+Simple NodeJS program that takes advantage of UMICH's UMScheduleOfClasses API to notify students when a desired course is available. Checks are done every 2 minutes and code can be edited to change the frequency of checking along with the courses checked. When checked if the course has more than 0 seats available an email will be sent to the user notifying them, after the initial email the process will be put on hold to prevent spamming and every 24hrs will reset.
 
 #Setup
 - Install NodeJS
